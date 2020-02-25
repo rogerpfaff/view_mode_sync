@@ -1,0 +1,4 @@
+services:
+  view_mode_sync.sync:
+    class: Drupal\view_mode_sync\Controller\ViewModeSyncController
+    arguments: ['@entity.query', '@entity_type.manager']

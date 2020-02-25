@@ -1,0 +1,6 @@
+name: View Mode Sync
+type: module
+description: Sync view modes between bundles.
+package: Development
+core: 8.x
+core_version_requirement: ^8 || ^9

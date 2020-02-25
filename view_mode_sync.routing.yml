@@ -1,0 +1,15 @@
+view_mode_sync_form.view_mode_sync:
+  path: 'admin/structure/view-mode-sync'
+  defaults:
+    _title: 'Sync view modes'
+    _form: 'Drupal\view_mode_sync\Form\ViewModeSyncForm'
+  requirements:
+    _permission: 'sync view modes'
+
+hedoga_commerce.view_mode_sync:
+  path: 'admin/structure/view-mode-sync/sync'
+  defaults:
+    _title: 'Sync view modes'
+    _controller: '\Drupal\view_mode_sync\Controller\ViewModeSyncController::build'
+  requirements:
+    _permission: 'access content'
